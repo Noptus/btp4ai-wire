@@ -1,0 +1,236 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "msteams": {
+    "width": "Full"
+  },
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://logo.clearbit.com/sap.com",
+              "size": "Small",
+              "style": "Person",
+              "altText": "BTP4AI Wire"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "BTP4AI Wire — Daily Brief",
+              "weight": "Bolder",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Mon, 18 Aug 2025 • 12:42 CEST • SAP EMEA",
+              "isSubtle": true,
+              "spacing": "None"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Top AI headlines",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/pymnts.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Mistral AI Nears $1 Billion Raise to Scale European Enterprise AI",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "PYMNTS • 12:00 Europe/Paris",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_1",
+          "text": "Highlights European AI sovereignty ambitions aligning with SAP BTP's local data governance and enterprise AI integration needs",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://ts2.tech/en/ai-frenzy-billion-dollar-deals-breakthroughs-backlash-aug-3-4-2025/"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/chooseparisregion.org",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "OpenAI Opens First European Office in Paris, Boosting Regional AI Ecosystem",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Choose Paris Region • 11:00 Europe/Paris",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_2",
+          "text": "Signifies increased AI innovation hubs in Europe that SAP BTP can leverage for ecosystem growth and partnerships",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://www.chooseparisregion.org/success-stories/openai-sets-foot-paris-region-signal-global-ai-innovators"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/winsomemarketing.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Europe’s GenAI Focus Shifts to Business Transformation and Compliance",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Winsome Marketing • 08:00 Europe/Paris",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_3",
+          "text": "Emphasizes governance and transformation priorities critical for SAP BTP's AI compliant application deployments",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://winsomemarketing.com/ai-in-marketing/europes-genai-coffee-break-problem"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_3"
+          ]
+        }
+      ]
+    }
+  ]
+}
