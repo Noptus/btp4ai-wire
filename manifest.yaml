@@ -1,0 +1,21 @@
+applications:
+  - name: btp4ai-wire-publisher
+    memory: 256M
+    disk_quota: 512M
+    instances: 1
+    timeout: 180
+    buildpacks:
+      - python_buildpack
+    env:
+      GITHUB_OWNER: "noptus"
+      GITHUB_REPO: "btp4ai-wire"
+      BRANCH: "main"
+      SITE_URL: "https://noptus.github.io/btp4ai-wire"
+      MAX_FEED_ITEMS: "10"
+      LOCAL_TZ: "Europe/Paris"
+      RUN_HOUR: "8"
+      RUN_MINUTE: "50"
+      PPLX_MODEL: "sonar"
+      # Set secrets with cf set-env after push:
+      # GITHUB_TOKEN: "<your PAT>"
+      # PPLX_API_KEY: "<your Perplexity key>"
