@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Tue, 19 Aug 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Wed, 20 Aug 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Business AI revolutionizes enterprise with AI copilots and embedded solutions](https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/)",
+                  "text": "[SAP Business AI Revolutionizes Enterprise Operations with AI Copilots](https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Ainvest • 14:22 Europe/Paris",
+                  "text": "Ainvest • Europe/Paris local time 14:22",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Highlights SAP BTP AI Foundation powering AI copilots like Joule, enhancing automation and efficiency with ethical, compliant AI.",
+          "text": "Highlights SAP BTP AI Foundation and Joule copilot enhancing enterprise efficiency and embedding AI securely",
           "wrap": true,
           "isVisible": false
         }
@@ -111,6 +111,72 @@
           "title": "SAP angle",
           "targetElements": [
             "s_1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/computerweekly.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[SAP pitches Business Suite as foundation for enterprise AI](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Computer Weekly • Europe/Paris local time 07:59",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_2",
+          "text": "Shows SAP BTP’s role in predictive analytics, automation, and AI integration with Joule and security governance",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_2"
           ]
         }
       ]
@@ -144,79 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP’s AI strategy advances dominance in business AI with unified data and contextual automation](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
+                  "text": "[SAP’s AI strategy to dominate business AI and the intelligent enterprise](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Klover AI • 02:00 Europe/Paris",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_2",
-          "text": "Emphasizes SAP BTP’s AI Core and Generative AI Hub integration enabling secure, flexible AI deployment across enterprise data.",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://research.aimultiple.com/sap-btp-automation/"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/research.aimultiple.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[Top SAP BTP automation platforms to boost enterprise efficiency in August 2025](https://research.aimultiple.com/sap-btp-automation/)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "AIMultiple Research • 02:00 Europe/Paris",
+                  "text": "Klover.ai • Europe/Paris local time 02:00",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Focuses on SAP BTP’s automation and integration capabilities optimizing workflows and hybrid cloud orchestration.",
+          "text": "Explains SAP BTP’s open ecosystem with AI Core, Generative AI Hub, and integrated security controlling enterprise AI",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://research.aimultiple.com/sap-btp-automation/"
+          "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-08-19"
+        "date": "2025-08-20"
       }
     },
     {
