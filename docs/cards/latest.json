@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Wed, 20 Aug 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Thu, 21 Aug 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Business AI Revolutionizes Enterprise Operations with AI Copilots](https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/)",
+                  "text": "[SAP Business AI boosts enterprise operations with AI copilot Joule and embedded AI](https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Ainvest • Europe/Paris local time 14:22",
+                  "text": "Ainvest • 14:22 Europe/Paris",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Highlights SAP BTP AI Foundation and Joule copilot enhancing enterprise efficiency and embedding AI securely",
+          "text": "Highlights SAP AI Foundation and Joule copilot enhancing automation and efficiency within SAP BTP environments.",
           "wrap": true,
           "isVisible": false
         }
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP pitches Business Suite as foundation for enterprise AI](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
+                  "text": "[SAP Business Suite pivotal for enterprise AI with integrated predictive analytics](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Computer Weekly • Europe/Paris local time 07:59",
+                  "text": "Computer Weekly • 07:59 Europe/Paris",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Shows SAP BTP’s role in predictive analytics, automation, and AI integration with Joule and security governance",
+          "text": "Demonstrates SAP BTP-enabled AI applications improving predictive analytics and automation across industries securely.",
           "wrap": true,
           "isVisible": false
         }
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP’s AI strategy to dominate business AI and the intelligent enterprise](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
+                  "text": "[SAP's AI strategy leverages BTP to dominate enterprise business AI](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Klover.ai • Europe/Paris local time 02:00",
+                  "text": "Klover.ai • 02:00 Europe/Paris",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Explains SAP BTP’s open ecosystem with AI Core, Generative AI Hub, and integrated security controlling enterprise AI",
+          "text": "Focuses on SAP BTP’s AI Core and Generative AI Hub for secure, extensible AI deployment under unified governance.",
           "wrap": true,
           "isVisible": false
         }
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-08-20"
+        "date": "2025-08-21"
       }
     },
     {
