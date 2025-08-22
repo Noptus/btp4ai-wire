@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Thu, 21 Aug 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Fri, 22 Aug 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/"
+        "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/ainvest.com",
+                  "url": "https://logo.clearbit.com/klover.ai",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Business AI boosts enterprise operations with AI copilot Joule and embedded AI](https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/)",
+                  "text": "[SAP's AI Strategy Dominates Enterprise Software with Contextual Automation](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Ainvest • 14:22 Europe/Paris",
+                  "text": "Klover.ai • Europe/Paris 08:00",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Highlights SAP AI Foundation and Joule copilot enhancing automation and efficiency within SAP BTP environments.",
+          "text": "Highlights SAP BTP’s AI Foundation and AI Core as central for secure, contextual AI across enterprise processes",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/"
+          "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Business Suite pivotal for enterprise AI with integrated predictive analytics](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
+                  "text": "[SAP Emphasizes Business Suite’s Role in Enterprise AI Innovation](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Computer Weekly • 07:59 Europe/Paris",
+                  "text": "Computer Weekly • Europe/Paris 07:59",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Demonstrates SAP BTP-enabled AI applications improving predictive analytics and automation across industries securely.",
+          "text": "Showcases SAP BTP-enabled predictive analytics and automation driving real-world AI deployments and ROI",
           "wrap": true,
           "isVisible": false
         }
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
+        "url": "https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/klover.ai",
+                  "url": "https://logo.clearbit.com/cloudwars.com",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP's AI strategy leverages BTP to dominate enterprise business AI](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
+                  "text": "[SAP Redefines Enterprise AI with Data Integration and Strategic Partnerships](https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Klover.ai • 02:00 Europe/Paris",
+                  "text": "CloudWars • Europe/Paris 07:00",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Focuses on SAP BTP’s AI Core and Generative AI Hub for secure, extensible AI deployment under unified governance.",
+          "text": "Highlights SAP BTP’s role in unifying data, integrating AI flywheel, and advanced LLM management",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
+          "url": "https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-08-21"
+        "date": "2025-08-22"
       }
     },
     {
