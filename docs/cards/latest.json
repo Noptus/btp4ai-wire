@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Fri, 22 Aug 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Mon, 25 Aug 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP's AI Strategy Dominates Enterprise Software with Contextual Automation](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
+                  "text": "[SAP’s AI Strategy Fuels Enterprise Dominance with Business AI and BTP](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Klover.ai • Europe/Paris 08:00",
+                  "text": "Klover AI • Europe/Paris local time like 08:50",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Highlights SAP BTP’s AI Foundation and AI Core as central for secure, contextual AI across enterprise processes",
+          "text": "Highlights SAP BTP's AI Core and Generative AI Hub for secure, scalable AI integration and governance in enterprises",
           "wrap": true,
           "isVisible": false
         }
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
+        "url": "https://www.ainvest.com/news/sap-strategic-resurgence-contrarian-bet-enterprise-software-ai-driven-future-2508/"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/computerweekly.com",
+                  "url": "https://logo.clearbit.com/ainvest.com",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Emphasizes Business Suite’s Role in Enterprise AI Innovation](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
+                  "text": "[SAP's AI-Driven Cloud ERP Growth Defies 'Software is Dead' Narrative](https://www.ainvest.com/news/sap-strategic-resurgence-contrarian-bet-enterprise-software-ai-driven-future-2508/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Computer Weekly • Europe/Paris 07:59",
+                  "text": "AInvest • Europe/Paris local time like 07:11",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Showcases SAP BTP-enabled predictive analytics and automation driving real-world AI deployments and ROI",
+          "text": "Demonstrates SAP BTP's AI copilot Joule cutting manual tasks, integrating AI natively into cloud ERP workflows",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
+          "url": "https://www.ainvest.com/news/sap-strategic-resurgence-contrarian-bet-enterprise-software-ai-driven-future-2508/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/"
+        "url": "https://numenit.com/news/sap-now-ai-tour-brazil-2025-discover-the-future-of-intelligent-management-with-artificial-intelligence-and-sap-cloud-erp/"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/cloudwars.com",
+                  "url": "https://logo.clearbit.com/numenit.com",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Redefines Enterprise AI with Data Integration and Strategic Partnerships](https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/)",
+                  "text": "[SAP NOW AI Tour Brazil 2025 Showcases AI and Cloud ERP Innovations](https://numenit.com/news/sap-now-ai-tour-brazil-2025-discover-the-future-of-intelligent-management-with-artificial-intelligence-and-sap-cloud-erp/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "CloudWars • Europe/Paris 07:00",
+                  "text": "Numenit • Europe/Paris local time like 07:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Highlights SAP BTP’s role in unifying data, integrating AI flywheel, and advanced LLM management",
+          "text": "Emphasizes SAP Cloud ERP and AI-driven process automation relevance for SAP BTP-based digital transformation",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/"
+          "url": "https://numenit.com/news/sap-now-ai-tour-brazil-2025-discover-the-future-of-intelligent-management-with-artificial-intelligence-and-sap-cloud-erp/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-08-22"
+        "date": "2025-08-25"
       }
     },
     {
