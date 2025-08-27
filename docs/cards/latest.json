@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Tue, 26 Aug 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Wed, 27 Aug 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP’s AI Strategy Powers Dominance in Business AI and Intelligent Enterprise](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
+                  "text": "[SAP's AI Strategy Advances Intelligent Enterprise with Business AI](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Klover.ai • Europe/Paris 02:00",
+                  "text": "Klover AI • Europe/Paris 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "SAP BTP enables integrated AI Core and a Generative AI Hub for secure, flexible model deployment and data-driven automation.",
+          "text": "Shows SAP BTP as core to unified AI platform enabling contextual automation and secure multi-model deployment",
           "wrap": true,
           "isVisible": false
         }
@@ -111,6 +111,72 @@
           "title": "SAP angle",
           "targetElements": [
             "s_1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://futurumgroup.com/insights/revolutionizing-erp-ibm-and-saps-ai-driven-partnership-unveiled/"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/futurumgroup.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[IBM and SAP Deepen Partnership to Embed Generative AI in ERP](https://futurumgroup.com/insights/revolutionizing-erp-ibm-and-saps-ai-driven-partnership-unveiled/)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Futurum Group • Europe/Paris 07:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_2",
+          "text": "Highlights AI-driven innovations integrated into SAP BTP powering expanded cloud ERP applications",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://futurumgroup.com/insights/revolutionizing-erp-ibm-and-saps-ai-driven-partnership-unveiled/"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_2"
           ]
         }
       ]
@@ -144,7 +210,7 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Highlights Business Suite and BTP for Practical Enterprise AI Impact](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
+                  "text": "[SAP Credits Business Suite and Joule for Enterprise AI Gains](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
@@ -160,8 +226,8 @@
         },
         {
           "type": "TextBlock",
-          "id": "s_2",
-          "text": "SAP BTP supports AI-driven automation and predictive analytics across industries, improving efficiency and data governance.",
+          "id": "s_3",
+          "text": "Demonstrates SAP BTP’s role in delivering AI-powered predictive analytics and workflow automation",
           "wrap": true,
           "isVisible": false
         }
@@ -171,72 +237,6 @@
           "type": "Action.OpenUrl",
           "title": "Read",
           "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/cloudwars.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[SAP’s Flywheel Strategy Integrates Data, AI, and Apps for Enterprise Momentum](https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "Cloudwars • Europe/Paris 07:00",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_3",
-          "text": "BTP facilitates integration of SAP’s Business Data Cloud with AI, enhancing unified data management and AI lifecycle.",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://cloudwars.com/cloud/how-sap-is-redefining-enterprise-ai-with-unified-data-and-strategic-partnerships-tinder-on-customers/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-08-26"
+        "date": "2025-08-27"
       }
     },
     {
