@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Fri, 29 Aug 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Mon, 01 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
+        "url": "https://www.ainvest.com/news/broadcom-vmware-cloud-foundation-powering-enterprise-ai-revolution-2509/"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/klover.ai",
+                  "url": "https://logo.clearbit.com/ainvest.com",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP’s AI Strategy Anchors Business AI Dominance with Embedded Process Intelligence](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
+                  "text": "[Broadcom’s VMware Cloud Foundation 9.0 powers enterprise AI adoption](https://www.ainvest.com/news/broadcom-vmware-cloud-foundation-powering-enterprise-ai-revolution-2509/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Klover.ai • Europe/Paris local time 08:10",
+                  "text": "AInvest • Europe/Paris 03:17",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "SAP BTP powers AI Core and Generative AI Hub, enabling integrated, secure AI model deployment and enterprise-wide intelligence.",
+          "text": "Enables integrated AI/non-AI workloads with multi-accelerator support, key for SAP BTP AI Core and cost optimization",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
+          "url": "https://www.ainvest.com/news/broadcom-vmware-cloud-foundation-powering-enterprise-ai-revolution-2509/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://futurumgroup.com/insights/revolutionizing-erp-ibm-and-saps-ai-driven-partnership-unveiled/"
+        "url": "https://stracl.com/blog/stracl-3-0-ai-launches-september-2025-redefining-enterprise-change-management"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/futurumgroup.com",
+                  "url": "https://logo.clearbit.com/stracl.com",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[IBM and SAP Deepen AI-Driven Partnership to Revolutionize ERP](https://futurumgroup.com/insights/revolutionizing-erp-ibm-and-saps-ai-driven-partnership-unveiled/)",
+                  "text": "[Stracl 3.0 + AI redefines enterprise change management with AI-driven workflows](https://stracl.com/blog/stracl-3-0-ai-launches-september-2025-redefining-enterprise-change-management)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Futurum Group • Europe/Paris local time 08:10",
+                  "text": "Stracl Inc. • Europe/Paris 03:00",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "SAP BTP anchors AI integration across cloud ERP apps, enhancing RISE with SAP via generative AI capabilities.",
+          "text": "Augments secure AI integration for scalable, automated change management, aligned with SAP BTP’s AI and security models",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://futurumgroup.com/insights/revolutionizing-erp-ibm-and-saps-ai-driven-partnership-unveiled/"
+          "url": "https://stracl.com/blog/stracl-3-0-ai-launches-september-2025-redefining-enterprise-change-management"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
+        "url": "https://technode.global/2025/09/01/google-cloud-doubles-down-on-enterprise-ai-commitment-to-singapore/"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/computerweekly.com",
+                  "url": "https://logo.clearbit.com/technode.global",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Highlights Business Suite and BTP for Enterprise AI and Predictive Analytics Use Cases](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
+                  "text": "[Google Cloud boosts enterprise AI capabilities and partnerships in Singapore](https://technode.global/2025/09/01/google-cloud-doubles-down-on-enterprise-ai-commitment-to-singapore/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Computer Weekly • Europe/Paris local time 07:59",
+                  "text": "TechNode Global • Europe/Paris 04:00",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "BTP supports AI-driven process automation and predictive analytics, crucial for scalable, secure AI in SAP ERP environments.",
+          "text": "Offers advanced AI tools on-prem with Gemini integration, enhancing SAP BTP AI services and data residency compliance",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
+          "url": "https://technode.global/2025/09/01/google-cloud-doubles-down-on-enterprise-ai-commitment-to-singapore/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-08-29"
+        "date": "2025-09-01"
       }
     },
     {
