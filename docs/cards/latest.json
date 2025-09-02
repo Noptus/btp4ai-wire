@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Mon, 01 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Tue, 02 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.ainvest.com/news/broadcom-vmware-cloud-foundation-powering-enterprise-ai-revolution-2509/"
+        "url": "https://podcast.opensap.info/cloud-platform/"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/ainvest.com",
+                  "url": "https://logo.clearbit.com/opensap.info",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Broadcom’s VMware Cloud Foundation 9.0 powers enterprise AI adoption](https://www.ainvest.com/news/broadcom-vmware-cloud-foundation-powering-enterprise-ai-revolution-2509/)",
+                  "text": "[Unlocking AI Power in ABAP Cloud to Enhance SAP BTP Development](https://podcast.opensap.info/cloud-platform/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "AInvest • Europe/Paris 03:17",
+                  "text": "OpenSAP • Europe/Paris 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Enables integrated AI/non-AI workloads with multi-accelerator support, key for SAP BTP AI Core and cost optimization",
+          "text": "Demonstrates embedding AI in ABAP Cloud development, advancing SAP BTP’s clean-core and extension strategies",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.ainvest.com/news/broadcom-vmware-cloud-foundation-powering-enterprise-ai-revolution-2509/"
+          "url": "https://podcast.opensap.info/cloud-platform/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://stracl.com/blog/stracl-3-0-ai-launches-september-2025-redefining-enterprise-change-management"
+        "url": "https://podcast.opensap.info/cloud-platform/"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/stracl.com",
+                  "url": "https://logo.clearbit.com/opensap.info",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Stracl 3.0 + AI redefines enterprise change management with AI-driven workflows](https://stracl.com/blog/stracl-3-0-ai-launches-september-2025-redefining-enterprise-change-management)",
+                  "text": "[SAP BTP Security Services Bolster Enterprise Application Protection](https://podcast.opensap.info/cloud-platform/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Stracl Inc. • Europe/Paris 03:00",
+                  "text": "OpenSAP • Europe/Paris 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Augments secure AI integration for scalable, automated change management, aligned with SAP BTP’s AI and security models",
+          "text": "Highlights SAP BTP security service capabilities designed to exceed industry standards, securing SAP business apps",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://stracl.com/blog/stracl-3-0-ai-launches-september-2025-redefining-enterprise-change-management"
+          "url": "https://podcast.opensap.info/cloud-platform/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://technode.global/2025/09/01/google-cloud-doubles-down-on-enterprise-ai-commitment-to-singapore/"
+        "url": "https://podcast.opensap.info/cloud-platform/"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/technode.global",
+                  "url": "https://logo.clearbit.com/opensap.info",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Google Cloud boosts enterprise AI capabilities and partnerships in Singapore](https://technode.global/2025/09/01/google-cloud-doubles-down-on-enterprise-ai-commitment-to-singapore/)",
+                  "text": "[SAP Landscape Management Cloud and IBM Partnership Drive SaaS on SAP BTP](https://podcast.opensap.info/cloud-platform/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "TechNode Global • Europe/Paris 04:00",
+                  "text": "OpenSAP • Europe/Paris 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Offers advanced AI tools on-prem with Gemini integration, enhancing SAP BTP AI services and data residency compliance",
+          "text": "Focuses on innovative SAP BTP SaaS solutions and collaboration with IBM to enhance workflow management",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://technode.global/2025/09/01/google-cloud-doubles-down-on-enterprise-ai-commitment-to-singapore/"
+          "url": "https://podcast.opensap.info/cloud-platform/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-01"
+        "date": "2025-09-02"
       }
     },
     {
