@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Tue, 02 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Wed, 03 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://podcast.opensap.info/cloud-platform/"
+        "url": "https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/opensap.info",
+                  "url": "https://logo.clearbit.com/erp.today",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Unlocking AI Power in ABAP Cloud to Enhance SAP BTP Development](https://podcast.opensap.info/cloud-platform/)",
+                  "text": "[SAP expands sovereign cloud footprint in France with AI focus for Europe’s public sector](https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "OpenSAP • Europe/Paris 08:10",
+                  "text": "ERP Today • 03/09/2025 08:10 Europe/Paris",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Demonstrates embedding AI in ABAP Cloud development, advancing SAP BTP’s clean-core and extension strategies",
+          "text": "Enhances SAP BTP’s AI capabilities with sovereign cloud to meet EU data regulations and support regulated industries.",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://podcast.opensap.info/cloud-platform/"
+          "url": "https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/opensap.info",
+                  "url": "https://logo.clearbit.com/podcast.opensap.info",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP BTP Security Services Bolster Enterprise Application Protection](https://podcast.opensap.info/cloud-platform/)",
+                  "text": "[SAP Generative AI Hub accelerates enterprise outcomes securely on SAP BTP](https://podcast.opensap.info/cloud-platform/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "OpenSAP • Europe/Paris 08:10",
+                  "text": "openSAP Podcast • 03/09/2025 07:30 Europe/Paris",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Highlights SAP BTP security service capabilities designed to exceed industry standards, securing SAP business apps",
+          "text": "Enables secure, instant foundation model access in SAP BTP AI Core and Joule for mission-critical workflows.",
           "wrap": true,
           "isVisible": false
         }
@@ -177,72 +177,6 @@
           "title": "SAP angle",
           "targetElements": [
             "s_2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://podcast.opensap.info/cloud-platform/"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/opensap.info",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[SAP Landscape Management Cloud and IBM Partnership Drive SaaS on SAP BTP](https://podcast.opensap.info/cloud-platform/)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "OpenSAP • Europe/Paris 08:10",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_3",
-          "text": "Focuses on innovative SAP BTP SaaS solutions and collaboration with IBM to enhance workflow management",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://podcast.opensap.info/cloud-platform/"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_3"
           ]
         }
       ]
@@ -352,7 +286,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-02"
+        "date": "2025-09-03"
       }
     },
     {
