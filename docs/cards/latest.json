@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Wed, 03 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Thu, 04 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP expands sovereign cloud footprint in France with AI focus for Europe’s public sector](https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/)",
+                  "text": "[SAP Expands Sovereign Cloud Footprint to Bring AI to Europe's Public Sector](https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "ERP Today • 03/09/2025 08:10 Europe/Paris",
+                  "text": "ERP Today • Europe/Paris local time like 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Enhances SAP BTP’s AI capabilities with sovereign cloud to meet EU data regulations and support regulated industries.",
+          "text": "Enables AI deployment with data sovereignty compliance critical for SAP BTP's regulated environments.",
           "wrap": true,
           "isVisible": false
         }
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://podcast.opensap.info/cloud-platform/"
+        "url": "https://www.ve3.global/ai-revolution-for-business-unlock-potential-with-sap-btp/"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/podcast.opensap.info",
+                  "url": "https://logo.clearbit.com/ve3.global",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Generative AI Hub accelerates enterprise outcomes securely on SAP BTP](https://podcast.opensap.info/cloud-platform/)",
+                  "text": "[AI Revolution for Business: Unlock Potential with SAP BTP](https://www.ve3.global/ai-revolution-for-business-unlock-potential-with-sap-btp/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "openSAP Podcast • 03/09/2025 07:30 Europe/Paris",
+                  "text": "VE3 Global • Europe/Paris local time like 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Enables secure, instant foundation model access in SAP BTP AI Core and Joule for mission-critical workflows.",
+          "text": "Highlights generative AI integration in SAP BTP to accelerate app development and sustainability initiatives.",
           "wrap": true,
           "isVisible": false
         }
@@ -170,13 +170,79 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://podcast.opensap.info/cloud-platform/"
+          "url": "https://www.ve3.global/ai-revolution-for-business-unlock-potential-with-sap-btp/"
         },
         {
           "type": "Action.ToggleVisibility",
           "title": "SAP angle",
           "targetElements": [
             "s_2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/zacks.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[SAP Invests €20B to Expand Sovereign Cloud and AI Innovation in Europe](https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Zacks • Europe/Paris local time like 08:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_3",
+          "text": "Significant investment fuels SAP BTP cloud & AI innovation under EU regulatory compliance.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_3"
           ]
         }
       ]
@@ -286,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-03"
+        "date": "2025-09-04"
       }
     },
     {
