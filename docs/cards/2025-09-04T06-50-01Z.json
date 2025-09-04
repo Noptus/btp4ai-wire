@@ -1,0 +1,383 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "msteams": {
+    "width": "Full"
+  },
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://logo.clearbit.com/sap.com",
+              "size": "Small",
+              "style": "Person",
+              "altText": "BTP4AI Wire"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "BTP4AI Wire — Daily Brief",
+              "weight": "Bolder",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Thu, 04 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "isSubtle": true,
+              "spacing": "None"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Top AI headlines",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/erp.today",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[SAP Expands Sovereign Cloud Footprint to Bring AI to Europe's Public Sector](https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "ERP Today • Europe/Paris local time like 08:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_1",
+          "text": "Enables AI deployment with data sovereignty compliance critical for SAP BTP's regulated environments.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://www.ve3.global/ai-revolution-for-business-unlock-potential-with-sap-btp/"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/ve3.global",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[AI Revolution for Business: Unlock Potential with SAP BTP](https://www.ve3.global/ai-revolution-for-business-unlock-potential-with-sap-btp/)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "VE3 Global • Europe/Paris local time like 08:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_2",
+          "text": "Highlights generative AI integration in SAP BTP to accelerate app development and sustainability initiatives.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://www.ve3.global/ai-revolution-for-business-unlock-potential-with-sap-btp/"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/zacks.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[SAP Invests €20B to Expand Sovereign Cloud and AI Innovation in Europe](https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Zacks • Europe/Paris local time like 08:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_3",
+          "text": "Significant investment fuels SAP BTP cloud & AI innovation under EU regulatory compliance.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Use case of the day",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "bleed": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Supplier risk & compliance co-pilot in S/4HANA",
+          "wrap": true,
+          "weight": "Bolder"
+        },
+        {
+          "type": "TextBlock",
+          "id": "uc1",
+          "text": "Pull vendor master (S/4HANA), scan contracts (DMS), enrich with news; flag high-risk suppliers with mitigation. BTP AI Core + Workflow.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "Show details",
+          "targetElements": [
+            "uc1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Joke about AI",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "My AI asked for a vacation. I said, “Sure—take some time off-line.”",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Vote the next deep-dive",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "poll_topic",
+      "style": "expanded",
+      "choices": [
+        {
+          "title": "Joule prompts & guardrails",
+          "value": "joule_prompts"
+        },
+        {
+          "title": "Multi-cloud model gateway on BTP",
+          "value": "multicloud_gateway"
+        },
+        {
+          "title": "RAG with SAP data (S/4, Signavio, docs)",
+          "value": "rag_sap"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Hub:",
+          "value": "EMEA BTP4AI"
+        },
+        {
+          "title": "Edition:",
+          "value": "EU/Paris"
+        },
+        {
+          "title": "Planned run:",
+          "value": "08:50 every weekday"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Submit vote",
+      "verb": "voteDeepDive",
+      "data": {
+        "source": "daily_brief",
+        "date": "2025-09-04"
+      }
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Refresh",
+      "verb": "refreshBrief",
+      "data": {
+        "edition": "eu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "👍 Useful",
+      "data": {
+        "verb": "feedback",
+        "value": "up"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "👎 Not useful",
+      "data": {
+        "verb": "feedback",
+        "value": "down"
+      }
+    }
+  ]
+}
