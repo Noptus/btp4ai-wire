@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Fri, 05 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Mon, 08 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/"
+        "url": "https://www.agiloft.com/news/agiloft-named-enterprise-ai-solutions-finalist/"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/erp.today",
+                  "url": "https://logo.clearbit.com/agiloft.com",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP expands sovereign cloud footprint, enabling AI for Europe’s public sector](https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/)",
+                  "text": "[Agiloft Named Finalist for Enterprise AI Solutions Award](https://www.agiloft.com/news/agiloft-named-enterprise-ai-solutions-finalist/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "ERP Today • 05 Sep 2025 08:10",
+                  "text": "Agiloft • Europe/Paris local time 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Ensures data sovereignty for AI workloads on SAP BTP, vital for regulated European public sector adoption",
+          "text": "AI-powered contract lifecycle management can integrate with SAP BTP to enhance automated legal workflow and risk reduction",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/"
+          "url": "https://www.agiloft.com/news/agiloft-named-enterprise-ai-solutions-finalist/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation"
+        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/zacks.com",
+                  "url": "https://logo.clearbit.com/newsroom.cisco.com",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP broadens Sovereign Cloud with €20B investment to boost EU-based AI innovation](https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation)",
+                  "text": "[Cisco Secure AI Factory Accelerates Enterprise Agentic AI at Scale](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Zacks • 05 Sep 2025 07:45",
+                  "text": "Cisco • Europe/Paris local time 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Offers flexible EU deployments that enhance SAP BTP AI capabilities under strict compliance",
+          "text": "Supports SAP BTP use cases by enabling scalable AI agent workloads with secure data access and reduced latency",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.zacks.com/stock/news/2746669/sap-expands-sovereign-cloud-to-power-europes-digital-ai-innovation"
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://podcast.opensap.info/cloud-platform/"
+        "url": "https://www.ibm.com/think/news/emotional-ai-enterprise"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/podcast.opensap.info",
+                  "url": "https://logo.clearbit.com/ibm.com",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Unlocking SAP BTP: Accelerating enterprise AI with generative models and security](https://podcast.opensap.info/cloud-platform/)",
+                  "text": "[Emotional AI Systems Enter Enterprise Workplaces to Boost Engagement](https://www.ibm.com/think/news/emotional-ai-enterprise)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "openSAP Podcast • 05 Sep 2025 07:00",
+                  "text": "IBM • Europe/Paris local time 07:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Highlights AI Core and Joule for secure, scalable generative AI integrated within SAP BTP",
+          "text": "Emotional AI can enhance SAP BTP workflows by providing adaptive user experience insights and workplace wellbeing analytics",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://podcast.opensap.info/cloud-platform/"
+          "url": "https://www.ibm.com/think/news/emotional-ai-enterprise"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-05"
+        "date": "2025-09-08"
       }
     },
     {
