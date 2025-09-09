@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Mon, 08 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Tue, 09 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.agiloft.com/news/agiloft-named-enterprise-ai-solutions-finalist/"
+        "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/agiloft.com",
+                  "url": "https://logo.clearbit.com/resolvetech.com",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Agiloft Named Finalist for Enterprise AI Solutions Award](https://www.agiloft.com/news/agiloft-named-enterprise-ai-solutions-finalist/)",
+                  "text": "[SAP BTP expands AI Foundation and Joule availability for enterprise-grade AI](https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Agiloft • Europe/Paris local time 08:10",
+                  "text": "Resolve Tech Solutions • Europe/Paris 08:30",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "AI-powered contract lifecycle management can integrate with SAP BTP to enhance automated legal workflow and risk reduction",
+          "text": "Key AI Foundation services and Joule integrations on SAP BTP streamline enterprise AI adoption and governance.",
           "wrap": true,
           "isVisible": false
         }
@@ -104,145 +104,13 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.agiloft.com/news/agiloft-named-enterprise-ai-solutions-finalist/"
+          "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
         },
         {
           "type": "Action.ToggleVisibility",
           "title": "SAP angle",
           "targetElements": [
             "s_1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/newsroom.cisco.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[Cisco Secure AI Factory Accelerates Enterprise Agentic AI at Scale](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "Cisco • Europe/Paris local time 08:10",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_2",
-          "text": "Supports SAP BTP use cases by enabling scalable AI agent workloads with secure data access and reduced latency",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://www.ibm.com/think/news/emotional-ai-enterprise"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/ibm.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[Emotional AI Systems Enter Enterprise Workplaces to Boost Engagement](https://www.ibm.com/think/news/emotional-ai-enterprise)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "IBM • Europe/Paris local time 07:10",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_3",
-          "text": "Emotional AI can enhance SAP BTP workflows by providing adaptive user experience insights and workplace wellbeing analytics",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://www.ibm.com/think/news/emotional-ai-enterprise"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_3"
           ]
         }
       ]
@@ -352,7 +220,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-08"
+        "date": "2025-09-09"
       }
     },
     {
