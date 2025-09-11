@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Wed, 10 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Thu, 11 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP BTP enhances enterprise AI with expanded Joule and AI Foundation](https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/)",
+                  "text": "[SAP BTP expands AI capabilities with AI Core, Joule, and AI Foundation launch](https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Resolve Tech Solutions • Europe/Paris 08:00",
+                  "text": "ResolveTech • 10:10 Europe/Paris",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Highlights SAP BTP’s central role in AI governance, lifecycle, and integrating AI Core and Joule for scalable enterprise AI.",
+          "text": "Shows SAP BTP’s evolving AI services and governance, vital for enterprise AI lifecycle management and scaling",
           "wrap": true,
           "isVisible": false
         }
@@ -111,6 +111,72 @@
           "title": "SAP angle",
           "targetElements": [
             "s_1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://www.ainvest.com/news/navigating-ai-landscape-essential-guidance-business-leaders-sap-connect-2025-2509/"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/ainvest.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[SAP Connect 2025 highlights AI integration across SAP BTP to drive business transformation](https://www.ainvest.com/news/navigating-ai-landscape-essential-guidance-business-leaders-sap-connect-2025-2509/)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "AI Invest • 06:45 Europe/Paris",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_2",
+          "text": "Demonstrates SAP BTP's key role in AI-driven workflow automation and multi-cloud data orchestration for enterprises",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://www.ainvest.com/news/navigating-ai-landscape-essential-guidance-business-leaders-sap-connect-2025-2509/"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_2"
           ]
         }
       ]
@@ -144,79 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP BTP and Business Data Cloud underpin composable ERP with AI framework](https://e3mag.com/en/ki-cloud-and-platforms-sap-business-technology-platform-and-sap-business-data-cloud/)",
+                  "text": "[SAP BTP and Business Data Cloud form foundation for AI-driven composable ERP](https://e3mag.com/en/ki-cloud-and-platforms-sap-business-technology-platform-and-sap-business-data-cloud/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "E3 Magazine • Europe/Paris 07:10",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_2",
-          "text": "Positions SAP BTP as foundational for orchestrating AI agents and composable ERP leveraging Joule and Steampunk ABAP.",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://e3mag.com/en/ki-cloud-and-platforms-sap-business-technology-platform-and-sap-business-data-cloud/"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/erp.today",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[SAP expands sovereign cloud in France to deliver AI securely to public sector](https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "ERP Today • Europe/Paris 07:45",
+                  "text": "E3 Magazine • 08:15 Europe/Paris",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Strengthens SAP BTP’s AI adoption by ensuring EU data sovereignty in regulated sectors with sovereign cloud services.",
+          "text": "Positions SAP BTP as the framework for AI orchestration and composable ERP architecture in cloud-native environments",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://erp.today/sap-expands-sovereign-cloud-footprint-bringing-ai-to-europes-public-sector/"
+          "url": "https://e3mag.com/en/ki-cloud-and-platforms-sap-business-technology-platform-and-sap-business-data-cloud/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-10"
+        "date": "2025-09-11"
       }
     },
     {
