@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Thu, 11 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Fri, 12 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
+        "url": "https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/resolvetech.com",
+                  "url": "https://logo.clearbit.com/hightoweradvisors.com",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP BTP expands AI capabilities with AI Core, Joule, and AI Foundation launch](https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/)",
+                  "text": "[Enterprise AI Adoption Fuels Growth in Cybersecurity and Infrastructure](https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "ResolveTech • 10:10 Europe/Paris",
+                  "text": "Hightower Advisors • Europe/Paris local time like 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Shows SAP BTP’s evolving AI services and governance, vital for enterprise AI lifecycle management and scaling",
+          "text": "Highlights increasing enterprise AI adoption requiring robust security and scalable infrastructure, key for SAP BTP AI Core and security integration.",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
+          "url": "https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.ainvest.com/news/navigating-ai-landscape-essential-guidance-business-leaders-sap-connect-2025-2509/"
+        "url": "https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/ainvest.com",
+                  "url": "https://logo.clearbit.com/news.adobe.com",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Connect 2025 highlights AI integration across SAP BTP to drive business transformation](https://www.ainvest.com/news/navigating-ai-landscape-essential-guidance-business-leaders-sap-connect-2025-2509/)",
+                  "text": "[Adobe Accelerates AI Innovation Adoption in Global Enterprises](https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "AI Invest • 06:45 Europe/Paris",
+                  "text": "Adobe • Europe/Paris local time like 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Demonstrates SAP BTP's key role in AI-driven workflow automation and multi-cloud data orchestration for enterprises",
+          "text": "Demonstrates AI-powered content and marketing workflows at scale, relevant for SAP BTP’s AI-driven digital experience orchestration.",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.ainvest.com/news/navigating-ai-landscape-essential-guidance-business-leaders-sap-connect-2025-2509/"
+          "url": "https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://e3mag.com/en/ki-cloud-and-platforms-sap-business-technology-platform-and-sap-business-data-cloud/"
+        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/e3mag.com",
+                  "url": "https://logo.clearbit.com/newsroom.cisco.com",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP BTP and Business Data Cloud form foundation for AI-driven composable ERP](https://e3mag.com/en/ki-cloud-and-platforms-sap-business-technology-platform-and-sap-business-data-cloud/)",
+                  "text": "[Cisco Unveils Secure AI Factory to Unlock Enterprise Agentic AI](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "E3 Magazine • 08:15 Europe/Paris",
+                  "text": "Cisco • Europe/Paris local time like 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Positions SAP BTP as the framework for AI orchestration and composable ERP architecture in cloud-native environments",
+          "text": "Offers secure, scalable AI infrastructure ideal for SAP BTP’s AI Core and enterprise-grade AI operations.",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://e3mag.com/en/ki-cloud-and-platforms-sap-business-technology-platform-and-sap-business-data-cloud/"
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-11"
+        "date": "2025-09-12"
       }
     },
     {
