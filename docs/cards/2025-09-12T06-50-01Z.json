@@ -1,0 +1,383 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "msteams": {
+    "width": "Full"
+  },
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://logo.clearbit.com/sap.com",
+              "size": "Small",
+              "style": "Person",
+              "altText": "BTP4AI Wire"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "BTP4AI Wire — Daily Brief",
+              "weight": "Bolder",
+              "size": "Large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Fri, 12 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "isSubtle": true,
+              "spacing": "None"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Top AI headlines",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/hightoweradvisors.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[Enterprise AI Adoption Fuels Growth in Cybersecurity and Infrastructure](https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Hightower Advisors • Europe/Paris local time like 08:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_1",
+          "text": "Highlights increasing enterprise AI adoption requiring robust security and scalable infrastructure, key for SAP BTP AI Core and security integration.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/news.adobe.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[Adobe Accelerates AI Innovation Adoption in Global Enterprises](https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Adobe • Europe/Paris local time like 08:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_2",
+          "text": "Demonstrates AI-powered content and marketing workflows at scale, relevant for SAP BTP’s AI-driven digital experience orchestration.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/newsroom.cisco.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[Cisco Unveils Secure AI Factory to Unlock Enterprise Agentic AI](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Cisco • Europe/Paris local time like 08:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_3",
+          "text": "Offers secure, scalable AI infrastructure ideal for SAP BTP’s AI Core and enterprise-grade AI operations.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Use case of the day",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "bleed": true,
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Supplier risk & compliance co-pilot in S/4HANA",
+          "wrap": true,
+          "weight": "Bolder"
+        },
+        {
+          "type": "TextBlock",
+          "id": "uc1",
+          "text": "Pull vendor master (S/4HANA), scan contracts (DMS), enrich with news; flag high-risk suppliers with mitigation. BTP AI Core + Workflow.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "Show details",
+          "targetElements": [
+            "uc1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Joke about AI",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "My AI asked for a vacation. I said, “Sure—take some time off-line.”",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Vote the next deep-dive",
+      "weight": "Bolder",
+      "size": "Medium",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "poll_topic",
+      "style": "expanded",
+      "choices": [
+        {
+          "title": "Joule prompts & guardrails",
+          "value": "joule_prompts"
+        },
+        {
+          "title": "Multi-cloud model gateway on BTP",
+          "value": "multicloud_gateway"
+        },
+        {
+          "title": "RAG with SAP data (S/4, Signavio, docs)",
+          "value": "rag_sap"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Hub:",
+          "value": "EMEA BTP4AI"
+        },
+        {
+          "title": "Edition:",
+          "value": "EU/Paris"
+        },
+        {
+          "title": "Planned run:",
+          "value": "08:50 every weekday"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Submit vote",
+      "verb": "voteDeepDive",
+      "data": {
+        "source": "daily_brief",
+        "date": "2025-09-12"
+      }
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Refresh",
+      "verb": "refreshBrief",
+      "data": {
+        "edition": "eu"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "👍 Useful",
+      "data": {
+        "verb": "feedback",
+        "value": "up"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "👎 Not useful",
+      "data": {
+        "verb": "feedback",
+        "value": "down"
+      }
+    }
+  ]
+}
