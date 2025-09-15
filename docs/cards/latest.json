@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Fri, 12 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Mon, 15 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds"
+        "url": "https://www.webpronews.com/sap-advances-ai-integration-for-enhanced-enterprise-cx/"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/hightoweradvisors.com",
+                  "url": "https://logo.clearbit.com/webpronews.com",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Enterprise AI Adoption Fuels Growth in Cybersecurity and Infrastructure](https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds)",
+                  "text": "[SAP advances AI integration with 40+ new Joule Agents for enterprise CX](https://www.webpronews.com/sap-advances-ai-integration-for-enhanced-enterprise-cx/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Hightower Advisors • Europe/Paris local time like 08:10",
+                  "text": "WebProNews • Europe/Paris 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Highlights increasing enterprise AI adoption requiring robust security and scalable infrastructure, key for SAP BTP AI Core and security integration.",
+          "text": "Enhances SAP BTP AI Core with new Joule Agents automating CX tasks for better business outcomes",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://hightoweradvisors.com/blogs/well-th-blog/enterprise-ai-and-cyber-security-tailwinds"
+          "url": "https://www.webpronews.com/sap-advances-ai-integration-for-enhanced-enterprise-cx/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth"
+        "url": "https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/news.adobe.com",
+                  "url": "https://logo.clearbit.com/prnewswire.com",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Adobe Accelerates AI Innovation Adoption in Global Enterprises](https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth)",
+                  "text": "[SAP expands Sovereign Cloud to boost European AI innovation and data sovereignty](https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Adobe • Europe/Paris local time like 08:10",
+                  "text": "PR Newswire • Europe/Paris 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Demonstrates AI-powered content and marketing workflows at scale, relevant for SAP BTP’s AI-driven digital experience orchestration.",
+          "text": "Strengthens SAP BTP security and compliance for regulated EU AI deployments with Sovereign Cloud",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://news.adobe.com/news/2025/09/global-enterprises-embrace-adobe-ai-innovations-power-growth"
+          "url": "https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
+        "url": "https://technologymagazine.com/news/pwc-and-sap-complete-one-of-largest-global-erp-moves"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/newsroom.cisco.com",
+                  "url": "https://logo.clearbit.com/technologymagazine.com",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Cisco Unveils Secure AI Factory to Unlock Enterprise Agentic AI](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html)",
+                  "text": "[PwC and SAP finalize major global ERP move to cloud with 100,000+ users onboarded](https://technologymagazine.com/news/pwc-and-sap-complete-one-of-largest-global-erp-moves)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Cisco • Europe/Paris local time like 08:10",
+                  "text": "Technology Magazine • Europe/Paris 07:15",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Offers secure, scalable AI infrastructure ideal for SAP BTP’s AI Core and enterprise-grade AI operations.",
+          "text": "Demonstrates SAP BTP’s scalability for large enterprise automation and cloud ERP transformation",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2025/m09/cisco-secure-ai-factory-with-nvidia-unlocks-enterprise-data-for-agentic-ai.html"
+          "url": "https://technologymagazine.com/news/pwc-and-sap-complete-one-of-largest-global-erp-moves"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -352,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-12"
+        "date": "2025-09-15"
       }
     },
     {
