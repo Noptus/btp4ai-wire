@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Mon, 15 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Tue, 16 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP advances AI integration with 40+ new Joule Agents for enterprise CX](https://www.webpronews.com/sap-advances-ai-integration-for-enhanced-enterprise-cx/)",
+                  "text": "[SAP Advances AI Integration for Enhanced Enterprise CX](https://www.webpronews.com/sap-advances-ai-integration-for-enhanced-enterprise-cx/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "WebProNews • Europe/Paris 08:10",
+                  "text": "WebProNews • Europe/Paris 08:32",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Enhances SAP BTP AI Core with new Joule Agents automating CX tasks for better business outcomes",
+          "text": "Highlights SAP Joule Agents automating CX tasks, leveraging BTP AI Core for business data-driven automation",
           "wrap": true,
           "isVisible": false
         }
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP expands Sovereign Cloud to boost European AI innovation and data sovereignty](https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html)",
+                  "text": "[SAP Deepens European Cloud Sovereignty Offering to Unlock Regional AI Innovation](https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "PR Newswire • Europe/Paris 08:10",
+                  "text": "PR Newswire • Europe/Paris 08:29",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Strengthens SAP BTP security and compliance for regulated EU AI deployments with Sovereign Cloud",
+          "text": "Expands SAP Sovereign Cloud within BTP for secure, compliant AI deployment fitting European regulations",
           "wrap": true,
           "isVisible": false
         }
@@ -177,72 +177,6 @@
           "title": "SAP angle",
           "targetElements": [
             "s_2"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://technologymagazine.com/news/pwc-and-sap-complete-one-of-largest-global-erp-moves"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/technologymagazine.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[PwC and SAP finalize major global ERP move to cloud with 100,000+ users onboarded](https://technologymagazine.com/news/pwc-and-sap-complete-one-of-largest-global-erp-moves)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "Technology Magazine • Europe/Paris 07:15",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_3",
-          "text": "Demonstrates SAP BTP’s scalability for large enterprise automation and cloud ERP transformation",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://technologymagazine.com/news/pwc-and-sap-complete-one-of-largest-global-erp-moves"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_3"
           ]
         }
       ]
@@ -352,7 +286,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-15"
+        "date": "2025-09-16"
       }
     },
     {
