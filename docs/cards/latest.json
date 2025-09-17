@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Tue, 16 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Wed, 17 Sep 2025 • 08:50 CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -48,72 +48,6 @@
       "weight": "Bolder",
       "size": "Medium",
       "spacing": "Medium"
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://www.webpronews.com/sap-advances-ai-integration-for-enhanced-enterprise-cx/"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/webpronews.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[SAP Advances AI Integration for Enhanced Enterprise CX](https://www.webpronews.com/sap-advances-ai-integration-for-enhanced-enterprise-cx/)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "WebProNews • Europe/Paris 08:32",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_1",
-          "text": "Highlights SAP Joule Agents automating CX tasks, leveraging BTP AI Core for business data-driven automation",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://www.webpronews.com/sap-advances-ai-integration-for-enhanced-enterprise-cx/"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_1"
-          ]
-        }
-      ]
     },
     {
       "type": "Container",
@@ -144,13 +78,79 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Deepens European Cloud Sovereignty Offering to Unlock Regional AI Innovation](https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html)",
+                  "text": "[SAP expands European Sovereign Cloud for secure AI innovation](https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "PR Newswire • Europe/Paris 08:29",
+                  "text": "PR Newswire • Europe/Paris local time 10:00",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_1",
+          "text": "Enhances SAP BTP security and compliance with sovereign cloud deployment options enabling AI-driven growth under regional regulations",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://aimagazine.com/news/saps-three-pillar-ai-strategy-for-enterprise-ai-success"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/aimagazine.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[SAP's three-pillar AI strategy shapes enterprise AI success](https://aimagazine.com/news/saps-three-pillar-ai-strategy-for-enterprise-ai-success)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "AI Magazine • Europe/Paris local time 10:15",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Expands SAP Sovereign Cloud within BTP for secure, compliant AI deployment fitting European regulations",
+          "text": "Aligns with SAP BTP core applications and data management to integrate AI sustainably for industry disruption",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html"
+          "url": "https://aimagazine.com/news/saps-three-pillar-ai-strategy-for-enterprise-ai-success"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -286,7 +286,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-16"
+        "date": "2025-09-17"
       }
     },
     {
