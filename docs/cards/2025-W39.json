@@ -28,13 +28,13 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "BTP4AI Wire — Daily Brief",
+              "text": "BTP4AI Wire — Weekly Brief",
               "weight": "Bolder",
               "size": "Large"
             },
             {
               "type": "TextBlock",
-              "text": "Mon, 18 Aug 2025 • 17:13 CEST • SAP EMEA",
+              "text": "Week of 22 Sep 2025 - 28 Sep 2025 • CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -44,7 +44,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Top AI headlines",
+      "text": "Top AI headlines this week",
       "weight": "Bolder",
       "size": "Medium",
       "spacing": "Medium"
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/"
+        "url": "https://openai.com/enterprise"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/ainvest.com",
+                  "url": "https://logo.clearbit.com/openai.com",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Business AI Revolutionizes Enterprise Operations with AI Copilots and Embedded AI](https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/)",
+                  "text": "[Enterprise AI controls gain traction (audit logs, PII filters, isolation)](https://openai.com/enterprise)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Ainvest • 14:22 Europe/Paris",
+                  "text": "BTP4AI Wire • Week of 22 Sep 2025 - 28 Sep 2025",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Highlights how SAP AI Copilot Joule and Embedded AI on BTP boost operational efficiency by up to 80%, emphasizing responsible AI governance",
+          "text": "Governance patterns map cleanly to Joule + AI Core guardrails.",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.ainvest.com/news/sap-business-ai-revolutionizing-enterprise-operations-ai-copilots-embedded-ai-solutions-2508/"
+          "url": "https://openai.com/enterprise"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
+        "url": "https://learn.microsoft.com/azure/search/search-what-is-azure-search"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/computerweekly.com",
+                  "url": "https://logo.clearbit.com/microsoft.com",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Touts Business Suite and BTP as Key to Enterprise AI Adoption](https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI)",
+                  "text": "[Vector search & RAG now standard in enterprise stacks](https://learn.microsoft.com/azure/search/search-what-is-azure-search)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Computer Weekly • 07:59 Europe/Paris",
+                  "text": "Microsoft Learn • Week of 22 Sep 2025 - 28 Sep 2025",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Shows BTP's role integrating predictive analytics and automation supporting AI-driven business use cases like HR and asset risk management",
+          "text": "Ground copilots on SAP data (S/4, docs) with managed vector stores.",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.computerweekly.com/news/366629240/SAP-touts-Business-Suite-as-key-to-enterprise-AI"
+          "url": "https://learn.microsoft.com/azure/search/search-what-is-azure-search"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/klover.ai",
+                  "url": "https://logo.clearbit.com/cloud.google.com",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP’s AI Strategy Embeds Process-Aware Intelligence for Business AI Dominance](https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/)",
+                  "text": "[Long-context models in production: design notes](https://cloud.google.com/blog/products/ai-machine-learning)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Klover AI • 02:00 Europe/Paris",
+                  "text": "Google Cloud Blog • Week of 22 Sep 2025 - 28 Sep 2025",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Details SAP BTP’s AI Foundation and AI Core capabilities enabling flexible AI integration and governance across hybrid enterprise landscapes",
+          "text": "Contracts/specs use-cases benefit; watch cost/latency.",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.klover.ai/sap-ai-strategy-dominance-business-ai-intelligent-enterprise/"
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -249,7 +249,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Use case of the day",
+      "text": "Use case of the week",
       "weight": "Bolder",
       "size": "Medium",
       "spacing": "Medium"
@@ -340,29 +340,12 @@
         },
         {
           "title": "Planned run:",
-          "value": "08:50 every weekday"
+          "value": "08:50 every Monday"
         }
       ]
     }
   ],
   "actions": [
-    {
-      "type": "Action.Execute",
-      "title": "Submit vote",
-      "verb": "voteDeepDive",
-      "data": {
-        "source": "daily_brief",
-        "date": "2025-08-18"
-      }
-    },
-    {
-      "type": "Action.Execute",
-      "title": "Refresh",
-      "verb": "refreshBrief",
-      "data": {
-        "edition": "eu"
-      }
-    },
     {
       "type": "Action.Submit",
       "title": "👍 Useful",

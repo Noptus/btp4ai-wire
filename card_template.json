@@ -28,13 +28,13 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "BTP4AI Wire — Daily Brief",
+              "text": "{{TITLE}}",
               "weight": "Bolder",
               "size": "Large"
             },
             {
               "type": "TextBlock",
-              "text": "Tue, 09 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "{{WHEN_LOCAL}}",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -44,80 +44,18 @@
     },
     {
       "type": "TextBlock",
-      "text": "Top AI headlines",
+      "text": "Top AI headlines this week",
       "weight": "Bolder",
       "size": "Medium",
       "spacing": "Medium"
     },
     {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/resolvetech.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[SAP BTP expands AI Foundation and Joule availability for enterprise-grade AI](https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "Resolve Tech Solutions • Europe/Paris 08:30",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_1",
-          "text": "Key AI Foundation services and Joule integrations on SAP BTP streamline enterprise AI adoption and governance.",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_1"
-          ]
-        }
-      ]
+      "type": "Placeholder",
+      "id": "NEWS_ITEMS"
     },
     {
       "type": "TextBlock",
-      "text": "Use case of the day",
+      "text": "Use case of the week",
       "weight": "Bolder",
       "size": "Medium",
       "spacing": "Medium"
@@ -164,7 +102,7 @@
       "items": [
         {
           "type": "TextBlock",
-          "text": "My AI asked for a vacation. I said, “Sure—take some time off-line.”",
+          "text": "My AI asked for a vacation. I said, \u201cSure\u2014take some time off-line.\u201d",
           "wrap": true
         }
       ]
@@ -208,32 +146,15 @@
         },
         {
           "title": "Planned run:",
-          "value": "08:50 every weekday"
+          "value": "08:50 every Monday"
         }
       ]
     }
   ],
   "actions": [
     {
-      "type": "Action.Execute",
-      "title": "Submit vote",
-      "verb": "voteDeepDive",
-      "data": {
-        "source": "daily_brief",
-        "date": "2025-09-09"
-      }
-    },
-    {
-      "type": "Action.Execute",
-      "title": "Refresh",
-      "verb": "refreshBrief",
-      "data": {
-        "edition": "eu"
-      }
-    },
-    {
       "type": "Action.Submit",
-      "title": "👍 Useful",
+      "title": "\ud83d\udc4d Useful",
       "data": {
         "verb": "feedback",
         "value": "up"
@@ -241,7 +162,7 @@
     },
     {
       "type": "Action.Submit",
-      "title": "👎 Not useful",
+      "title": "\ud83d\udc4e Not useful",
       "data": {
         "verb": "feedback",
         "value": "down"

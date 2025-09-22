@@ -1,6 +1,6 @@
 # app.py
 # BTP4AI Wire — Publisher (Cloud Foundry)
-# - Waits until 08:50 Europe/Paris every weekday, then publishes:
+# - Waits until 08:50 Europe/Paris every target weekday (default Monday), then publishes:
 #   * docs/cards/<ISO>.json  (Adaptive Card)
 #   * docs/cards/latest.json (stable pointer)
 #   * docs/feed.rss and docs/feed.xml (RSS with embedded card JSON + Base64)
@@ -12,11 +12,13 @@ import os
 import re
 import json
 import base64
+import copy
 import hashlib
 import time
 import threading
 from datetime import datetime, timezone, timedelta
-from typing import List, Dict, Tuple
+from pathlib import Path
+from typing import List, Dict, Tuple, Optional
 from zoneinfo import ZoneInfo
 
 import requests
@@ -33,6 +35,8 @@ LOCAL_TZ       = os.getenv("LOCAL_TZ", "Europe/Paris")
 RUN_HOUR       = int(os.getenv("RUN_HOUR", "8"))    # 08:50 local
 RUN_MINUTE     = int(os.getenv("RUN_MINUTE", "50"))
 RUN_CATCH_UP   = os.getenv("RUN_CATCH_UP", "false").lower() in ("1", "true", "yes")
+RUN_WEEKDAY    = int(os.getenv("RUN_WEEKDAY", "0"))  # 0=Monday
+ENABLE_SCHEDULER = os.getenv("ENABLE_SCHEDULER", "true").lower() in ("1", "true", "yes")
 
 # Perplexity (optional but recommended)
 PPLX_API_KEY   = os.getenv("PPLX_API_KEY")          # set to enable research
@@ -51,6 +55,10 @@ HEADERS_PPLX = {
     "Authorization": f"Bearer {PPLX_API_KEY or ''}",
     "Content-Type": "application/json",
 }
+
+# Card template
+CARD_TEMPLATE_PATH = Path(__file__).with_name("card_template.json")
+_CARD_TEMPLATE_CACHE: Optional[Dict] = None
 
 # ========= Flask =========
 app = Flask(__name__)
@@ -83,6 +91,23 @@ def github_put_file(path: str, content_bytes: bytes, message: str) -> dict:
     return r.json()
 
 
+def github_delete_file(path: str, message: str) -> None:
+    """Delete a file via the Contents API (DELETE)."""
+    existing = github_get(f"contents/{path}")
+    if not existing or "sha" not in existing:
+        return
+    payload = {
+        "message": message,
+        "sha": existing["sha"],
+        "branch": BRANCH,
+    }
+    url = f"{GH_API}/repos/{GITHUB_OWNER}/{GITHUB_REPO}/contents/{path}"
+    r = requests.delete(url, headers=HEADERS_GH, json=payload, timeout=60)
+    # 200 = deleted, 204 = already gone
+    if r.status_code not in (200, 204):
+        r.raise_for_status()
+
+
 def ensure_docs_structure():
     """Make sure docs/ and docs/cards/ exist by committing empty placeholders."""
     for p in ("docs/.keep", "docs/cards/.keep"):
@@ -101,6 +126,24 @@ def list_card_slugs_from_repo() -> List[str]:
         return []
     names = [item["name"] for item in resp if item["name"].endswith(".json") and item["name"] != "latest.json"]
     return sorted([n[:-5] for n in names], reverse=True)
+
+
+def cleanup_cards_except(keep_slugs: List[str]) -> None:
+    """Delete all docs/cards/*.json except the ones listed in keep_slugs."""
+    if not keep_slugs:
+        return
+    resp = github_get("contents/docs/cards")
+    if not resp or isinstance(resp, dict) and resp.get("type") == "file":
+        return
+    keep_set = set(keep_slugs)
+    for item in resp:
+        name = item.get("name")
+        if not name or not name.endswith(".json") or name == "latest.json":
+            continue
+        slug = name[:-5]
+        if slug in keep_set:
+            continue
+        github_delete_file(f"docs/cards/{name}", f"chore: prune card {slug}")
 
 
 def get_card_json_text_b64(slug: str) -> Tuple[str, str]:
@@ -124,9 +167,110 @@ def file_exists(path: str) -> bool:
 
 
 # ========= Card + Feed =========
+
+
+def _load_card_template() -> Dict:
+    """Load adaptive card template once and return a deep copy for mutation."""
+    global _CARD_TEMPLATE_CACHE
+    if _CARD_TEMPLATE_CACHE is None:
+        if not CARD_TEMPLATE_PATH.exists():
+            raise FileNotFoundError(f"Missing card template at {CARD_TEMPLATE_PATH}")
+        with CARD_TEMPLATE_PATH.open("r", encoding="utf-8") as f:
+            _CARD_TEMPLATE_CACHE = json.load(f)
+    return copy.deepcopy(_CARD_TEMPLATE_CACHE)
+
+
+def _apply_mapping_to_string(value: str, mapping: Dict[str, str]) -> str:
+    result = value
+    for placeholder, replacement in mapping.items():
+        result = result.replace(placeholder, replacement)
+    return result
+
+
+def _replace_placeholders(obj, mapping: Dict[str, str]) -> None:
+    if isinstance(obj, dict):
+        for key, val in obj.items():
+            if isinstance(val, str):
+                obj[key] = _apply_mapping_to_string(val, mapping)
+            else:
+                _replace_placeholders(val, mapping)
+    elif isinstance(obj, list):
+        for index, item in enumerate(obj):
+            if isinstance(item, str):
+                obj[index] = _apply_mapping_to_string(item, mapping)
+            else:
+                _replace_placeholders(item, mapping)
+
+
+def _build_news_container(idx: int, item: Dict) -> Dict:
+    block_id = f"s_{idx}"
+    return {
+        "type": "Container",
+        "style": "default",
+        "selectAction": {"type": "Action.OpenUrl", "title": "Read", "url": item["url"]},
+        "items": [
+            {
+                "type": "ColumnSet",
+                "columns": [
+                    {
+                        "type": "Column",
+                        "width": "auto",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "url": item.get("source_logo", ""),
+                                "size": "Small"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Column",
+                        "width": "stretch",
+                        "items": [
+                            {
+                                "type": "TextBlock",
+                                "text": f"[{item['headline']}]({item['url']})",
+                                "wrap": True,
+                                "weight": "Bolder"
+                            },
+                            {
+                                "type": "TextBlock",
+                                "text": item.get("meta", ""),
+                                "isSubtle": True,
+                                "spacing": "None"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "TextBlock",
+                "id": block_id,
+                "text": item.get("btp_angle", ""),
+                "wrap": True,
+                "isVisible": False
+            }
+        ],
+        "actions": [
+            {"type": "Action.OpenUrl", "title": "Read", "url": item["url"]},
+            {"type": "Action.ToggleVisibility", "title": "SAP angle", "targetElements": [block_id]}
+        ]
+    }
+
+
+def _news_items_or_placeholder(items: List[Dict]) -> List[Dict]:
+    if items:
+        return [_build_news_container(i, it) for i, it in enumerate(items, start=1)]
+    return [{
+        "type": "TextBlock",
+        "text": "No curated items available for this week.",
+        "isSubtle": True
+    }]
+
+
 def build_adaptive_card(title: str, when_local: str, items: List[Dict]) -> Dict:
     """
-    Build a Teams-ready Adaptive Card.
+    Build a Teams-ready Adaptive Card using the external template.
     items: list of dicts with keys:
       - source_logo (str)
       - headline (str)
@@ -134,115 +278,18 @@ def build_adaptive_card(title: str, when_local: str, items: List[Dict]) -> Dict:
       - url (str)
       - btp_angle (str, optional)
     """
-    body = [
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "auto",
-                    "items": [
-                        {
-                            "type": "Image",
-                            "url": "https://logo.clearbit.com/sap.com",
-                            "size": "Small",
-                            "style": "Person",
-                            "altText": "BTP4AI Wire"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {"type": "TextBlock", "text": title, "weight": "Bolder", "size": "Large"},
-                        {"type": "TextBlock", "text": when_local, "isSubtle": True, "spacing": "None"}
-                    ]
-                }
-            ]
-        },
-        {"type": "TextBlock", "text": "Top AI headlines", "weight": "Bolder", "size": "Medium", "spacing": "Medium"}
-    ]
+    card = _load_card_template()
+    _replace_placeholders(card, {
+        "{{TITLE}}": title,
+        "{{WHEN_LOCAL}}": when_local,
+    })
 
-    for i, it in enumerate(items, start=1):
-        body.append({
-            "type": "Container",
-            "style": "default",
-            "selectAction": {"type": "Action.OpenUrl", "title": "Read", "url": it["url"]},
-            "items": [
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {"type": "Column", "width": "auto",
-                         "items": [{"type": "Image", "url": it.get("source_logo", ""), "size": "Small"}]},
-                        {"type": "Column", "width": "stretch",
-                         "items": [
-                             {"type": "TextBlock",
-                              "text": f"[{it['headline']}]({it['url']})",
-                              "wrap": True, "weight": "Bolder"},
-                             {"type": "TextBlock", "text": it.get("meta", ""), "isSubtle": True, "spacing": "None"}
-                         ]}
-                    ]
-                },
-                {"type": "TextBlock", "id": f"s_{i}", "text": it.get("btp_angle", ""), "wrap": True, "isVisible": False}
-            ],
-            "actions": [
-                {"type": "Action.OpenUrl", "title": "Read", "url": it["url"]},
-                {"type": "Action.ToggleVisibility", "title": "SAP angle", "targetElements": [f"s_{i}"]}
-            ]
-        })
-
-    # Optional sections — can be filled/changed in code that calls this builder
-    body.extend([
-        {"type": "TextBlock", "text": "Use case of the day", "weight": "Bolder", "size": "Medium", "spacing": "Medium"},
-        {
-            "type": "Container", "style": "emphasis", "bleed": True,
-            "items": [
-                {"type": "TextBlock", "text": "Supplier risk & compliance co-pilot in S/4HANA", "wrap": True, "weight": "Bolder"},
-                {"type": "TextBlock", "id": "uc1",
-                 "text": "Pull vendor master (S/4HANA), scan contracts (DMS), enrich with news; flag high-risk suppliers with mitigation. BTP AI Core + Workflow.",
-                 "wrap": True, "isVisible": False}
-            ],
-            "actions": [{"type": "Action.ToggleVisibility", "title": "Show details", "targetElements": ["uc1"]}]
-        },
-        {"type": "TextBlock", "text": "Joke about AI", "weight": "Bolder", "size": "Medium", "spacing": "Medium"},
-        {
-            "type": "Container", "style": "default",
-            "items": [{"type": "TextBlock", "text": "My AI asked for a vacation. I said, “Sure—take some time off-line.”", "wrap": True}]
-        },
-        {"type": "TextBlock", "text": "Vote the next deep-dive", "weight": "Bolder", "size": "Medium", "spacing": "Medium"},
-        {
-            "type": "Input.ChoiceSet", "id": "poll_topic", "style": "expanded",
-            "choices": [
-                {"title": "Joule prompts & guardrails", "value": "joule_prompts"},
-                {"title": "Multi-cloud model gateway on BTP", "value": "multicloud_gateway"},
-                {"title": "RAG with SAP data (S/4, Signavio, docs)", "value": "rag_sap"}
-            ]
-        },
-        {
-            "type": "FactSet",
-            "facts": [
-                {"title": "Hub:", "value": "EMEA BTP4AI"},
-                {"title": "Edition:", "value": "EU/Paris"},
-                {"title": "Planned run:", "value": "08:50 every weekday"}
-            ]
-        }
-    ])
-
-    return {
-        "type": "AdaptiveCard",
-        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-        "version": "1.5",
-        "msteams": {"width": "Full"},
-        "body": body,
-        "actions": [
-            {"type": "Action.Execute", "title": "Submit vote", "verb": "voteDeepDive",
-             "data": {"source": "daily_brief", "date": datetime.now().strftime("%Y-%m-%d")}},
-            {"type": "Action.Execute", "title": "Refresh", "verb": "refreshBrief", "data": {"edition": "eu"}},
-            {"type": "Action.Submit", "title": "👍 Useful", "data": {"verb": "feedback", "value": "up"}},
-            {"type": "Action.Submit", "title": "👎 Not useful", "data": {"verb": "feedback", "value": "down"}}
-        ]
-    }
+    body = card.get("body", [])
+    for idx, block in enumerate(body):
+        if isinstance(block, dict) and block.get("type") == "Placeholder" and block.get("id") == "NEWS_ITEMS":
+            body[idx:idx + 1] = _news_items_or_placeholder(items)
+            break
+    return card
 
 
 def generate_feed(slugs_desc: List[str]) -> str:
@@ -258,7 +305,7 @@ def generate_feed(slugs_desc: List[str]) -> str:
     for slug in slugs_desc:
         name = f"{slug}.json"
         link = f"{SITE_URL}/cards/{name}"
-        title = f"BTP4AI Wire — Daily Brief — {slug[:10]}"
+        title = f"BTP4AI Wire — Weekly Brief — {week_label_from_slug(slug)}"
         guid = hashlib.sha1(name.encode("utf-8")).hexdigest()
 
         card_json_text, card_json_b64 = get_card_json_text_b64(slug)
@@ -287,9 +334,9 @@ def generate_feed(slugs_desc: List[str]) -> str:
 <rss version="2.0"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>BTP4AI Wire — Daily Brief</title>
+    <title>BTP4AI Wire — Weekly Brief</title>
     <link>{SITE_URL}</link>
-    <description>Daily AI news for SAP EMEA BTP4AI Hub</description>
+    <description>Weekly AI highlights for SAP EMEA BTP4AI Hub</description>
     <language>en</language>
     <lastBuildDate>{now_http}</lastBuildDate>
 {''.join(items_xml)}
@@ -305,13 +352,12 @@ def commit_card_and_feed(card: Dict, slug: str):
     github_put_file(f"docs/cards/{slug}.json", json_bytes, f"feat: add card {slug}")
     # 2) Stable pointer
     github_put_file("docs/cards/latest.json", json_bytes, "chore: update latest.json")
-    # 3) Feed from current slugs (ensure newest first)
-    slugs = list_card_slugs_from_repo()
-    if slug not in slugs:
-        slugs = sorted([slug] + slugs, reverse=True)
-    feed_xml = generate_feed(slugs)
-    github_put_file("docs/feed.rss", feed_xml.encode("utf-8"), "chore: update feed.rss (limit 10)")
-    github_put_file("docs/feed.xml", feed_xml.encode("utf-8"), "chore: update feed.xml (limit 10)")
+    # 3) Remove older weekly cards to keep GitHub Pages lean
+    cleanup_cards_except([slug])
+    # 4) Feed with the current week's card only
+    feed_xml = generate_feed([slug])
+    github_put_file("docs/feed.rss", feed_xml.encode("utf-8"), "chore: update feed.rss (weekly)")
+    github_put_file("docs/feed.xml", feed_xml.encode("utf-8"), "chore: update feed.xml (weekly)")
 
 
 # ========= Perplexity (news items) =========
@@ -409,6 +455,31 @@ def _fallback_items(when_local: str) -> List[Dict]:
 
 
 # ========= Publish Once =========
+def current_week_slug(dt_local: datetime) -> str:
+    year, week, _ = dt_local.isocalendar()
+    return f"{year}-W{week:02d}"
+
+
+def current_week_label(dt_local: datetime) -> str:
+    monday = dt_local - timedelta(days=dt_local.weekday())
+    sunday = monday + timedelta(days=6)
+    return f"Week of {monday.strftime('%d %b %Y')} - {sunday.strftime('%d %b %Y')}"
+
+
+def week_label_from_slug(slug: str) -> str:
+    match = re.match(r"^(\d{4})-W(\d{2})$", slug)
+    if not match:
+        return slug
+    year = int(match.group(1))
+    week = int(match.group(2))
+    try:
+        monday = datetime.fromisocalendar(year, week, 1)
+        sunday = datetime.fromisocalendar(year, week, 7)
+    except ValueError:
+        return slug
+    return f"Week of {monday.strftime('%d %b %Y')} - {sunday.strftime('%d %b %Y')}"
+
+
 def publish_once():
     if not GITHUB_TOKEN:
         raise RuntimeError("Missing GITHUB_TOKEN")
@@ -418,45 +489,39 @@ def publish_once():
     now_utc = datetime.now(timezone.utc)
     now_local = now_utc.astimezone(tz)
 
-    slug = now_utc.strftime("%Y-%m-%dT%H-%M-%SZ")
+    slug = current_week_slug(now_local)
     path = f"docs/cards/{slug}.json"
-    # Idempotency: skip if already published for this exact minute
+    # Idempotency: skip if already published for this week
     if file_exists(path):
         print(f"[publisher] Card already exists for slug {slug}, skipping.")
         return
 
-    when_local = now_local.strftime("%a, %d %b %Y • %H:%M %Z") + " • SAP EMEA"
+    label = current_week_label(now_local)
+    when_local = f"{label} • {now_local.strftime('%Z')} • SAP EMEA"
     items = ai_research_items(when_local)
-    card = build_adaptive_card("BTP4AI Wire — Daily Brief", when_local, items)
+    card = build_adaptive_card("BTP4AI Wire — Weekly Brief", when_local, items)
     commit_card_and_feed(card, slug)
     print(f"[publisher] Published {slug}")
 
 
-# ========= Scheduler (08:50 weekdays) =========
-def _next_weekday(dt_local: datetime) -> datetime:
-    d = dt_local + timedelta(days=1)
-    while d.weekday() >= 5:  # 5=Sat, 6=Sun
-        d += timedelta(days=1)
-    return d
-
-
+# ========= Scheduler (08:50 weekly) =========
 def seconds_until_next_run() -> Tuple[int, str]:
     tz = ZoneInfo(LOCAL_TZ)
     now_utc = datetime.now(timezone.utc)
     now_local = now_utc.astimezone(tz)
 
-    target = now_local.replace(hour=RUN_HOUR, minute=RUN_MINUTE, second=0, microsecond=0)
+    if RUN_CATCH_UP:
+        slug = current_week_slug(now_local)
+        if not file_exists(f"docs/cards/{slug}.json"):
+            return 1, now_local.isoformat()
 
-    if now_local.weekday() >= 5:  # weekend -> next Monday
-        target = _next_weekday(now_local).replace(hour=RUN_HOUR, minute=RUN_MINUTE, second=0, microsecond=0)
-    else:
-        if now_local >= target:
-            # already past target time today → next weekday
-            target = _next_weekday(now_local).replace(hour=RUN_HOUR, minute=RUN_MINUTE, second=0, microsecond=0)
-        elif RUN_CATCH_UP and (target - now_local) > timedelta(minutes=1):
-            # if catching up, run immediately when app starts earlier than target
-            # (i.e., don't wait until 08:50 if you want an immediate run on boot)
-            target = now_local + timedelta(seconds=1)
+    days_ahead = (RUN_WEEKDAY - now_local.weekday()) % 7
+    target = (now_local + timedelta(days=days_ahead)).replace(
+        hour=RUN_HOUR, minute=RUN_MINUTE, second=0, microsecond=0
+    )
+
+    if days_ahead == 0 and now_local >= target:
+        target = target + timedelta(days=7)
 
     delta = target.astimezone(timezone.utc) - now_utc
     secs = max(1, int(delta.total_seconds()))
@@ -480,7 +545,8 @@ def scheduler_loop():
 
 
 # Start scheduler in background (works under gunicorn too)
-threading.Thread(target=scheduler_loop, daemon=True).start()
+if ENABLE_SCHEDULER:
+    threading.Thread(target=scheduler_loop, daemon=True).start()
 
 
 # ========= HTTP =========
