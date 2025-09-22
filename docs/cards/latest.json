@@ -28,13 +28,13 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "BTP4AI Wire — Daily Brief",
+              "text": "BTP4AI Wire — Weekly Brief",
               "weight": "Bolder",
               "size": "Large"
             },
             {
               "type": "TextBlock",
-              "text": "Wed, 17 Sep 2025 • 08:50 CEST • SAP EMEA",
+              "text": "Week of 22 Sep 2025 - 28 Sep 2025 • CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -44,7 +44,7 @@
     },
     {
       "type": "TextBlock",
-      "text": "Top AI headlines",
+      "text": "Top AI headlines this week",
       "weight": "Bolder",
       "size": "Medium",
       "spacing": "Medium"
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html"
+        "url": "https://openai.com/enterprise"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/prnewswire.com",
+                  "url": "https://logo.clearbit.com/openai.com",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP expands European Sovereign Cloud for secure AI innovation](https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html)",
+                  "text": "[Enterprise AI controls gain traction (audit logs, PII filters, isolation)](https://openai.com/enterprise)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "PR Newswire • Europe/Paris local time 10:00",
+                  "text": "BTP4AI Wire • Week of 22 Sep 2025 - 28 Sep 2025",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Enhances SAP BTP security and compliance with sovereign cloud deployment options enabling AI-driven growth under regional regulations",
+          "text": "Governance patterns map cleanly to Joule + AI Core guardrails.",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://www.prnewswire.com/news-releases/sap-deepens-european-cloud-sovereignty-offering-to-unlock-regional-ai-innovation-302543585.html"
+          "url": "https://openai.com/enterprise"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://aimagazine.com/news/saps-three-pillar-ai-strategy-for-enterprise-ai-success"
+        "url": "https://learn.microsoft.com/azure/search/search-what-is-azure-search"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/aimagazine.com",
+                  "url": "https://logo.clearbit.com/microsoft.com",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP's three-pillar AI strategy shapes enterprise AI success](https://aimagazine.com/news/saps-three-pillar-ai-strategy-for-enterprise-ai-success)",
+                  "text": "[Vector search & RAG now standard in enterprise stacks](https://learn.microsoft.com/azure/search/search-what-is-azure-search)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "AI Magazine • Europe/Paris local time 10:15",
+                  "text": "Microsoft Learn • Week of 22 Sep 2025 - 28 Sep 2025",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Aligns with SAP BTP core applications and data management to integrate AI sustainably for industry disruption",
+          "text": "Ground copilots on SAP data (S/4, docs) with managed vector stores.",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://aimagazine.com/news/saps-three-pillar-ai-strategy-for-enterprise-ai-success"
+          "url": "https://learn.microsoft.com/azure/search/search-what-is-azure-search"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -182,8 +182,74 @@
       ]
     },
     {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/cloud.google.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[Long-context models in production: design notes](https://cloud.google.com/blog/products/ai-machine-learning)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "Google Cloud Blog • Week of 22 Sep 2025 - 28 Sep 2025",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_3",
+          "text": "Contracts/specs use-cases benefit; watch cost/latency.",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_3"
+          ]
+        }
+      ]
+    },
+    {
       "type": "TextBlock",
-      "text": "Use case of the day",
+      "text": "Use case of the week",
       "weight": "Bolder",
       "size": "Medium",
       "spacing": "Medium"
@@ -274,7 +340,7 @@
         },
         {
           "title": "Planned run:",
-          "value": "08:50 every weekday"
+          "value": "08:50 every Monday"
         }
       ]
     }
@@ -286,7 +352,7 @@
       "verb": "voteDeepDive",
       "data": {
         "source": "daily_brief",
-        "date": "2025-09-17"
+        "date": "2025-09-22"
       }
     },
     {
