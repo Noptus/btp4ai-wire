@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Week of 29 Sep 2025 - 05 Oct 2025 • CEST • SAP EMEA",
+              "text": "Week of 06 Oct 2025 - 12 Oct 2025 • CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -48,138 +48,6 @@
       "weight": "Bolder",
       "size": "Medium",
       "spacing": "Medium"
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/resolvetech.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[SAP BTP Expands AI Foundation and Joule Integration for Enterprise-Grade AI](https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "Resolve Tech Solutions • Europe/Paris 08:10",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_1",
-          "text": "Highlights SAP BTP as backbone for scalable, governed AI lifecycle and cross-system orchestration, key for AI Core and Joule adoption",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "style": "default",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "title": "Read",
-        "url": "https://news.sap.com/2025/09/sap-deepens-european-cloud-sovereignty-offering-unlock-regional-ai-innovation/"
-      },
-      "items": [
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://logo.clearbit.com/news.sap.com",
-                  "size": "Small"
-                }
-              ]
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "[SAP Strengthens European Cloud Sovereignty to Boost Local AI Innovation](https://news.sap.com/2025/09/sap-deepens-european-cloud-sovereignty-offering-unlock-regional-ai-innovation/)",
-                  "wrap": true,
-                  "weight": "Bolder"
-                },
-                {
-                  "type": "TextBlock",
-                  "text": "SAP News Center • Europe/Paris 07:55",
-                  "isSubtle": true,
-                  "spacing": "None"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "TextBlock",
-          "id": "s_2",
-          "text": "Sovereign Cloud integrates SAP BTP and Business AI for secure, compliant regional deployments critical to AI Core governance",
-          "wrap": true,
-          "isVisible": false
-        }
-      ],
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Read",
-          "url": "https://news.sap.com/2025/09/sap-deepens-european-cloud-sovereignty-offering-unlock-regional-ai-innovation/"
-        },
-        {
-          "type": "Action.ToggleVisibility",
-          "title": "SAP angle",
-          "targetElements": [
-            "s_2"
-          ]
-        }
-      ]
     },
     {
       "type": "Container",
@@ -210,13 +78,145 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[SAP Connect 2025 Showcases AI Scaling to Automate Core Business with SAP BTP](https://news.sap.com/2025/09/sap-connect-business-leaders-ai-answers/)",
+                  "text": "[SAP Connect 2025 spotlights AI scaling for automating core enterprise processes](https://news.sap.com/2025/09/sap-connect-business-leaders-ai-answers/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "SAP News Center • Europe/Paris 06:30",
+                  "text": "SAP News Center • Europe/Paris 08:50",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_1",
+          "text": "Highlights how SAP BTP underpins AI that powers scalable, secure, and interoperable business automation including Joule AI capabilities",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://news.sap.com/2025/09/sap-connect-business-leaders-ai-answers/"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://www.youtube.com/watch?v=13DEw8qKD2w"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/youtube.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[SAP Business Technology Platform enables fast AI-driven application innovation](https://www.youtube.com/watch?v=13DEw8qKD2w)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "SAP Community Voice • Europe/Paris 08:10",
+                  "isSubtle": true,
+                  "spacing": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "s_2",
+          "text": "Emphasizes SAP BTP's accelerators, prebuilt AI flows and templates to reduce AI adoption time and drive business outcomes",
+          "wrap": true,
+          "isVisible": false
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Read",
+          "url": "https://www.youtube.com/watch?v=13DEw8qKD2w"
+        },
+        {
+          "type": "Action.ToggleVisibility",
+          "title": "SAP angle",
+          "targetElements": [
+            "s_2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "style": "default",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "title": "Read",
+        "url": "https://www.sap.com/canada/events/2025-10-21-online-ai-driven-business-solutions.html"
+      },
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://logo.clearbit.com/sap.com",
+                  "size": "Small"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "[Upcoming SAP webinar to explore AI-driven business solutions on SAP BTP](https://www.sap.com/canada/events/2025-10-21-online-ai-driven-business-solutions.html)",
+                  "wrap": true,
+                  "weight": "Bolder"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "SAP • Europe/Paris 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Demonstrates SAP BTP’s role enabling Joule and AI agents that power adaptable, enterprise-wide AI functions",
+          "text": "Focuses on practical AI patterns and architecture blueprints to speed enterprise AI ROI on SAP BTP",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://news.sap.com/2025/09/sap-connect-business-leaders-ai-answers/"
+          "url": "https://www.sap.com/canada/events/2025-10-21-online-ai-driven-business-solutions.html"
         },
         {
           "type": "Action.ToggleVisibility",
