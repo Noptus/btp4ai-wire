@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Week of 13 Oct 2025 - 19 Oct 2025 • CEST • SAP EMEA",
+              "text": "Week of 20 Oct 2025 - 26 Oct 2025 • CEST • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -84,7 +84,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "BTP4AI Wire • Week of 13 Oct 2025 - 19 Oct 2025",
+                  "text": "BTP4AI Wire • Week of 20 Oct 2025 - 26 Oct 2025",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -150,7 +150,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Microsoft Learn • Week of 13 Oct 2025 - 19 Oct 2025",
+                  "text": "Microsoft Learn • Week of 20 Oct 2025 - 26 Oct 2025",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -216,7 +216,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Google Cloud Blog • Week of 13 Oct 2025 - 19 Oct 2025",
+                  "text": "Google Cloud Blog • Week of 20 Oct 2025 - 26 Oct 2025",
                   "isSubtle": true,
                   "spacing": "None"
                 }
