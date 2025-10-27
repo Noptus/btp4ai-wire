@@ -34,7 +34,7 @@
             },
             {
               "type": "TextBlock",
-              "text": "Week of 20 Oct 2025 - 26 Oct 2025 • CEST • SAP EMEA",
+              "text": "Week of 27 Oct 2025 - 02 Nov 2025 • CET • SAP EMEA",
               "isSubtle": true,
               "spacing": "None"
             }
@@ -55,7 +55,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://openai.com/enterprise"
+        "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
       },
       "items": [
         {
@@ -67,7 +67,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/openai.com",
+                  "url": "https://logo.clearbit.com/resolvetech.com",
                   "size": "Small"
                 }
               ]
@@ -78,13 +78,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Enterprise AI controls gain traction (audit logs, PII filters, isolation)](https://openai.com/enterprise)",
+                  "text": "[SAP BTP advances enterprise AI with expanded Joule and AI Foundation](https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "BTP4AI Wire • Week of 20 Oct 2025 - 26 Oct 2025",
+                  "text": "Resolve Tech Solutions • Europe/Paris 08:10",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -95,7 +95,7 @@
         {
           "type": "TextBlock",
           "id": "s_1",
-          "text": "Governance patterns map cleanly to Joule + AI Core guardrails.",
+          "text": "Highlights SAP BTP as core to enable centralized AI governance, fast prototyping, and integration with external AI ecosystems",
           "wrap": true,
           "isVisible": false
         }
@@ -104,7 +104,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://openai.com/enterprise"
+          "url": "https://resolvetech.com/how-to-maximize-business-ai-with-sap-btp/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -121,7 +121,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://learn.microsoft.com/azure/search/search-what-is-azure-search"
+        "url": "https://news.sap.com/2025/10/sap-connect-btp-ai-business-suite/"
       },
       "items": [
         {
@@ -133,7 +133,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/microsoft.com",
+                  "url": "https://logo.clearbit.com/news.sap.com",
                   "size": "Small"
                 }
               ]
@@ -144,13 +144,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Vector search & RAG now standard in enterprise stacks](https://learn.microsoft.com/azure/search/search-what-is-azure-search)",
+                  "text": "[SAP Connect unveils new AI-powered Business Suite applications on BTP](https://news.sap.com/2025/10/sap-connect-btp-ai-business-suite/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Microsoft Learn • Week of 20 Oct 2025 - 26 Oct 2025",
+                  "text": "SAP News Center • Europe/Paris 07:40",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -161,7 +161,7 @@
         {
           "type": "TextBlock",
           "id": "s_2",
-          "text": "Ground copilots on SAP data (S/4, docs) with managed vector stores.",
+          "text": "Demonstrates SAP BTP as the platform powering intelligent source-to-pay and supply chain orchestration solutions",
           "wrap": true,
           "isVisible": false
         }
@@ -170,7 +170,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://learn.microsoft.com/azure/search/search-what-is-azure-search"
+          "url": "https://news.sap.com/2025/10/sap-connect-btp-ai-business-suite/"
         },
         {
           "type": "Action.ToggleVisibility",
@@ -187,7 +187,7 @@
       "selectAction": {
         "type": "Action.OpenUrl",
         "title": "Read",
-        "url": "https://cloud.google.com/blog/products/ai-machine-learning"
+        "url": "https://news.sap.com/2025/10/sap-business-ai-release-highlights-q3-2025/"
       },
       "items": [
         {
@@ -199,7 +199,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://logo.clearbit.com/cloud.google.com",
+                  "url": "https://logo.clearbit.com/news.sap.com",
                   "size": "Small"
                 }
               ]
@@ -210,13 +210,13 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "[Long-context models in production: design notes](https://cloud.google.com/blog/products/ai-machine-learning)",
+                  "text": "[Q3 2025 SAP Business AI release expands Joule Agents, gains ISO AI governance certification](https://news.sap.com/2025/10/sap-business-ai-release-highlights-q3-2025/)",
                   "wrap": true,
                   "weight": "Bolder"
                 },
                 {
                   "type": "TextBlock",
-                  "text": "Google Cloud Blog • Week of 20 Oct 2025 - 26 Oct 2025",
+                  "text": "SAP News Center • Europe/Paris 07:45",
                   "isSubtle": true,
                   "spacing": "None"
                 }
@@ -227,7 +227,7 @@
         {
           "type": "TextBlock",
           "id": "s_3",
-          "text": "Contracts/specs use-cases benefit; watch cost/latency.",
+          "text": "Confirms SAP BTP as the foundation for responsible, scalable AI with 400+ AI features and enhanced developer tools",
           "wrap": true,
           "isVisible": false
         }
@@ -236,7 +236,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "Read",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning"
+          "url": "https://news.sap.com/2025/10/sap-business-ai-release-highlights-q3-2025/"
         },
         {
           "type": "Action.ToggleVisibility",
